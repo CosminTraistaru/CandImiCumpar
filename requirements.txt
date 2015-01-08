@@ -1,0 +1,14 @@
+Flask
+flask-appconfig
+Flask-Bootstrap
+Flask-WTF
+Flask-SQLAlchemy
+itsdangerous
+Jinja2
+MarkupSafe
+six
+Werkzeug
+wsgiref
+WTForms
+pymysql
+flask-whooshalchemy
