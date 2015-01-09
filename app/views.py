@@ -16,7 +16,12 @@ def produs(product_id):
 def index():
     produs = models.get_product_info('254e42ca03436e55a1228ce32f25c039b8895119')
     return render_template('produs.html', produs=produs,
-                           title="Home".format(produs=produs['nume']))
+                           title="Home")
+
+@app.route('/contact/')
+def contact():
+    return render_template('contact.html',
+                           title="Contact")
 
 @app.before_request
 def before_request():
